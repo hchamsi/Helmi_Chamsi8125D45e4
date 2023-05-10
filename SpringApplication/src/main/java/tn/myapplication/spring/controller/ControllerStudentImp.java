@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import tn.myapplication.spring.dto.StudentDTO;
 import tn.myapplication.spring.entity.Student;
-import tn.myapplication.spring.repository.StudentService;
+import tn.myapplication.spring.service.StudentService;
 
 @RestController
 @RequestMapping("/students")

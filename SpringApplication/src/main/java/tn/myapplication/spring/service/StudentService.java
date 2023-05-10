@@ -1,4 +1,4 @@
-package tn.myapplication.spring.repository;
+package tn.myapplication.spring.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -6,6 +6,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import tn.myapplication.spring.entity.Student;
+import tn.myapplication.spring.repository.StudentRepository;
 
 @Service
 public class StudentService {
